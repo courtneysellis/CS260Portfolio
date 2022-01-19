@@ -1,0 +1,70 @@
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #3c6f99;
+}
+body{
+    background-color: rgb(255, 251, 234);
+}
+.nav-bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.nav-bar li{
+    float: left;
+}
+.nav-bar li a {
+    display: block;
+    color: rgb(119, 119, 119);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: lightblue;
+}
+.nav-bar li a:hover {
+    background-color: silver;
+    color: white;
+}
+.nav-bar li {
+    border-right: 1px solid #bbb;
+}
+.nav-bar li:last-child {
+    border-right: none;
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #4682b4;
+    text-decoration: none;
+    padding-left: 8px;
+}
+h2 a{
+    color: steelblue;
+    text-decoration: none;
+}
+h2 a:hover{
+    text-decoration: none;
+    color:rgb(119, 119, 119);
+}
+#about-text{
+    margin-right: 400px;
+    margin-left: 10px;
+}
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: steelblue;
+    text-decoration: none;
+}
+.experience-list{
+    list-style-type: none;
+}
+.experience-text{
+    padding-left: 15px;
+}
+.contact-head a{
+    padding-left: 30px;
+    color: steelblue;
+}
+.contact-head a:hover{
+    color: rgb(119, 119, 119);
+}
