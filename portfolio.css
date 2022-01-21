@@ -1,70 +1,130 @@
-h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #3c6f99;
-}
 body{
-    background-color: rgb(255, 251, 234);
+    background-color: #eef0eb;
 }
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu {
+    background-color: #373D20;
+    height: 80px;
+}
+.header {
+    background-color: #6C809A;
+}
+.about{
+    height: 50px;
+}
+.content {
+    background-color: #EEF0EB;
+    height: 100px;
+}
+
+.projects {
+    background-color: #886270;
+}
+
+.exp {
+    background-color: #6C809A;
+}
+
+.contact {
+    background-color: #CB904D;
+}
+
+/* Navbar styles */
 .nav-bar{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-}
-.nav-bar li{
-    float: left;
+    display: flex;
+    justify-content: space-around;
 }
 .nav-bar li a {
     display: block;
-    color: rgb(119, 119, 119);
+    color: #eef0eb;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    background-color: lightblue;
+    background-color: #373D20;
 }
 .nav-bar li a:hover {
-    background-color: silver;
-    color: white;
+    background-color: #eef0eb;
+    color:#373D20;
 }
 .nav-bar li {
+    float: left;
     border-right: 1px solid #bbb;
+    border-left: 1px solid #bbb;
 }
-.nav-bar li:last-child {
-    border-right: none;
+/* Headings */
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #373D20;
 }
 h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #4682b4;
-    text-decoration: none;
     padding-left: 8px;
+    color: #373D20;
 }
 h2 a{
-    color: steelblue;
+    color: #373D20;
     text-decoration: none;
 }
 h2 a:hover{
     text-decoration: none;
-    color:rgb(119, 119, 119);
-}
-#about-text{
-    margin-right: 400px;
-    margin-left: 10px;
+    color:#EEF0EB;
 }
 h3{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: steelblue;
+    color: #EEF0EB;
     text-decoration: none;
 }
+
+/* Experience page */
 .experience-list{
     list-style-type: none;
 }
 .experience-text{
     padding-left: 15px;
 }
+/* Contact page */
 .contact-head a{
     padding-left: 30px;
     color: steelblue;
 }
 .contact-head a:hover{
-    color: rgb(119, 119, 119);
+    color: #EEF0EB;
 }
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .projects,
+    .exp,
+    .contact {
+      width: 50%;
+    }
+}
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    .page {
+      width: 960px;
+      margin: 0 auto;
+    }
+    .projects,
+    .exp,
+    .contact {
+      width: 33.3%;
+    }
+    .header {
+      height: 400px;
+    }
+  }

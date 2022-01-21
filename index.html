@@ -2,33 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
     <link rel="stylesheet" href="portfolio.css"/>
     <title>Portfolio Page</title>
 </head>
 <body>
-    <ul class="nav-bar">
-        <li><a href='index.html'>Home</a></li>
-        <li><a href='pages/projects.html'>Projects</a></li>
-        <li><a href='pages/experience.html'>Experience</a></li>
-        <li><a href='pages/contact.html'>Contact</a></li>
-      </ul>
-    <h1>My Portfolio - Courtney Ellis</h1>
-    <br>
-    <hr>
-    <h2>About</h2>
-    <hr>
-    <p id="about-text">
-        I am a senior in the Information Systems program, graduating with my Bachelors in April 2022. After gradution I will
-        start full-time at Eide Bailly as a Salesforce Developer and Consultant. My favorite things are spending time with my
-        family, chocolate ice cream, and the beach.
-    </p>
-    <br>
-    <hr>
-    <h2><a href='pages/projects.html'>Projects</a></h2>
-    <hr>
-    <h2><a href='pages/experience.html'>Experience</a></h2>
-    <hr>
-    <h2><a href='pages/contact.html'>Contact</a></h2>
-    <hr>
-</body>
-</html>
+    <div class="page">
+        <div class="section menu">
+            <ul class="section nav-bar">
+                <li><a href='index.html'>Home</a></li>
+                <li><a href='pages/projects.html'>Projects</a></li>
+                <li><a href='pages/experience.html'>Experience</a></li>
+                <li><a href='pages/contact.html'>Contact</a></li>
+            </ul>
+        </div>
+        <div class="section header">
+            <h1>My Portfolio - Courtney Ellis</h1>
+        </div>
+        <br>
+        <div class="section about">
+            <h2>About</h2>
+            <hr>
+        </div>
+        <div>
+            <p class="section content">
+                I am a senior in the Information Systems program, graduating with my Bachelors in April 2022. After gradution I will
+                start full-time at Eide Bailly as a Salesforce Developer and Consultant. My favorite things are spending time with my
+                family, chocolate ice cream, and the beach.
+            </p>
+        </div>
+        <div class="section projects">
+            <h2><a href='pages/projects.html'>Projects</a></h2>
+        </div>
+        <div class="section exp">
+            <h2><a href='pages/experience.html'>Experience</a></h2>
+        </div>
+        <div class="section contact">
+            <h2><a href='pages/contact.html'>Contact</a></h2>
+        </div>
+    </div>
+    </body>
+    </html>
